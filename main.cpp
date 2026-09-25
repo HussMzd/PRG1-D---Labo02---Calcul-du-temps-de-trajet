@@ -10,12 +10,12 @@ Remarque(s) : Projet posté sur GitHub (https://github.com/HussMzd/PRG1-D---Labo
 #include <iostream>
 
 int main() {
-    int L1 = 6;     // Longueur 1 en km
-    int S1 = 5;     // Vitesse 1 en km/h
-    int L2;         // Longueur 2 en km (inconnu)
-    int S2 = 2;     // Vitesse 2 en km/h
-    int dx = 3;     // Delta x en km
-    int dy = 10;    // Delta y en km
+    double L1 = 6;     // Longueur 1 en km
+    double S1 = 5;     // Vitesse 1 en km/h
+    double L2;         // Longueur 2 en km (inconnu)
+    double S2 = 2;     // Vitesse 2 en km/h
+    double dx = 3;     // Delta x en km
+    double dy = 10;    // Delta y en km
     double time;    // Temps final (inconnu)
 
     L2 = sqrt(pow(dx, 2) + pow((dy-L1), 2)); // Calcul de L2
